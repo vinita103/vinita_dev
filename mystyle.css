@@ -20,7 +20,8 @@ body {
     display: flex;
     padding-top: 33px;
     padding-bottom: 33px;
-  }
+    
+}
 .nav-link{
      text-decoration: none;
      color:brown;
