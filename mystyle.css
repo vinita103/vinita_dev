@@ -1,0 +1,177 @@
+
+
+body {
+    background-color: lightgoldenrodyellow;
+    background-image:url(https://www.curtainsjs.com/images/intro-background.jpg);
+  }
+
+  p{
+      color: black;
+      margin:20px;
+      text-align: justify;
+      font-size: 20px;
+    }
+
+  .primarycolor{
+      color:brown
+    }
+
+  .nav-bar {
+    display: flex;
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+.nav-link{
+     text-decoration: none;
+     color:brown;
+     font-size: 20px;
+     padding-bottom: 20px;
+}
+ 
+.aboutme {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+        
+       }
+
+.text {
+        display:flex;
+        align-self: center;
+        text-align: justify; 
+        margin:50px; 
+        padding:70px;                      
+           
+       }
+
+.image {
+        display:flex;
+        text-align: left;
+        align-self: center;
+        margin:70px;
+        width: 200 px;
+        height:200 px;
+       } 
+       
+.detailsection
+       {
+        margin-left:40px; 
+       }
+
+                    
+.background{
+        margin-left: 40px;
+        padding-bottom:40px;
+                 
+      }
+
+      .goal{
+          margin-left:30px;
+      }
+
+      h1{
+        animation-duration: 5s;
+        animation-name: slidein;
+        
+      }
+
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+          }
+        }
+
+           
+.project1{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 60px;
+        margin-left: 40px;
+        margin-right: 40px;     
+}
+
+.project2{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+     }
+   
+.project3{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+   
+.project4{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+      
+   }
+
+h3 {
+    margin-left: 40px;
+}
+
+.interest1
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.interest2
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: -80px;
+}
+
+.interest3
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.interest4
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+    
+    .footer
+    {
+    font-size:20px;
+    padding:5px;
+    text-align:center;
+    
+    }
+    
+       
+       
